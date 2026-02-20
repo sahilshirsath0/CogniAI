@@ -219,7 +219,7 @@ app.post("/api/events", upload.single("imageFile"), async (req, res) => {
 
     let imageUrl = image;
     if (req.file) {
-      imageUrl = `http://127.0.0.1:5002/uploads/${req.file.filename}`;
+      imageUrl = `https://cogniai-1xcj.onrender.com/uploads/${req.file.filename}`;
     }
 
     const newEvent = new Event({
@@ -314,7 +314,7 @@ app.put("/api/events/:id", upload.single("imageFile"), async (req, res) => {
     };
 
     if (req.file) {
-      updateData.image = `http://127.0.0.1:5002/uploads/${req.file.filename}`;
+      updateData.image = `https://cogniai-1xcj.onrender.com/uploads/${req.file.filename}`;
     } else if (imageUrl) {
       updateData.image = imageUrl;
     }
