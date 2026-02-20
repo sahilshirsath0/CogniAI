@@ -6,7 +6,7 @@ export const AdminDashboard = (user, stats = {}) => {
       <nav style="position: relative; z-index: 10; padding: 1.5rem 5%; display: flex; justify-content: space-between; align-items: center; color: #1E293B;">
         <div class="logo" style="display: flex; align-items: center; gap: 0.8rem; text-decoration: none; cursor: pointer; color: #3B82F6;" onclick="window.scrollTo(0,0);">
           <div style="background: white; padding: 4px; border-radius: 8px; display: inline-flex; align-items: center; justify-content: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-            <img src="/src/assets/logo.svg" alt="COGNI AI Logo" style="height: 38px; width: auto;" onerror="this.src='/src/assets/logo.svg'" />
+            <img src="/logo.svg" alt="COGNI AI Logo" style="height: 38px; width: auto;" onerror="this.src='/logo.svg'" />
           </div>
           <span style="font-size: 1.5rem; font-weight: 800; font-family: 'Poppins', sans-serif;">COGNI AI <span style="font-weight: 500; opacity: 0.9; font-size: 1.1rem; color: #60A5FA;">ADMIN PANEL</span></span>
         </div>

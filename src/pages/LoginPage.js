@@ -3,7 +3,7 @@ export const LoginPage = () => {
     <div class="auth-page fade-in">
       <div class="auth-wrapper">
         <div class="auth-image login-image">
-          <img src="/src/assets/logo.svg" alt="COGNI AI Logo" style="width: 100%; max-width: 450px; height: auto; filter: drop-shadow(0 10px 15px rgba(0,0,0,0.05));" />
+          <img src="/logo.svg" alt="COGNI AI Logo" style="width: 100%; max-width: 450px; height: auto; filter: drop-shadow(0 10px 15px rgba(0,0,0,0.05));" />
         </div>
         
         <div class="auth-content">

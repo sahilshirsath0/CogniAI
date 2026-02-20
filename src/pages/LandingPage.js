@@ -11,7 +11,7 @@ export const LandingPage = () => {
       <!-- Navbar -->
       <nav style="height: 90px; padding: 0 5%; display: flex; align-items: center; justify-content: space-between; position: fixed; width: 100%; top: 0; z-index: 1000; transition: all 0.4s ease;">
         <div class="logo" style="display: flex; align-items: center; gap: 0.8rem; text-decoration: none; cursor: pointer; padding-left: 10px;" onclick="window.scrollTo(0,0);">
-          <img src="/src/assets/logo.svg" alt="COGNI AI Logo" style="height: 65px; width: auto; filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1));" onerror="this.src='/src/assets/logo.svg'" />
+          <img src="/logo.svg" alt="COGNI AI Logo" style="height: 65px; width: auto; filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1));" onerror="this.src='/logo.svg'" />
           <span style="font-size: 1.6rem; color: var(--primary); font-weight: 800; font-family: 'Poppins', sans-serif;">COGNI AI</span>
         </div>
         <div class="nav-links" style="display: flex; gap: 2.5rem; align-items: center;">
