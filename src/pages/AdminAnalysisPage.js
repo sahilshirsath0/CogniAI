@@ -117,7 +117,7 @@ export const AdminAnalysisPage = (user, events = [], selectedEventStats = null) 
                     <button class="btn btn-outline" style="padding: 0.8rem 1.5rem; border-radius: 12px; border: 1px solid #10B981; color: #10B981; font-weight: 700;" onclick="window.app.openCertificateModal('${selectedEventStats.eventId}')">
                        🎓 Release Certificates
                     </button>
-                    <button class="btn btn-primary" style="padding: 0.8rem 1.5rem; border-radius: 12px;" onclick="window.location.href='http://127.0.0.1:5002/api/admin/export/registrations?eventId=${selectedEventStats.eventId}'">
+                    <button class="btn btn-primary" style="padding: 0.8rem 1.5rem; border-radius: 12px;" onclick="window.location.href='https://cogniai-1xcj.onrender.com/api/admin/export/registrations?eventId=${selectedEventStats.eventId}'">
                        📥 Download CSV Report
                     </button>
                  </div>
